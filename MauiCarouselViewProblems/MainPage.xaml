@@ -11,6 +11,11 @@
             Text="Click me to create new entries in collection"
             Clicked="OnCreateNewListBtnClicked"
             HorizontalOptions="Center" />
+        <Button
+            x:Name="CreateNewListBtn2"
+            Text="Click me to create 2 new entries in collection"
+            Clicked="OnCreateNewListBtn2Clicked"
+            HorizontalOptions="Center" />
         <CarouselView
                     Loop="false"
                     ItemsSource="{Binding animalsCollection}">

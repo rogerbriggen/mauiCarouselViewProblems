@@ -20,5 +20,12 @@ namespace MauiCarouselViewProblems
             animalsCollection.Clear();
             animalsCollection.Add(new Animal { Name = "Monkey", Birthday = DateTime.Now.ToString() });
         }
+
+        private void OnCreateNewListBtn2Clicked(object sender, EventArgs e)
+        {
+            animalsCollection.Clear();
+            animalsCollection.Add(new Animal { Name = "Monkey", Birthday = DateTime.Now.ToString() });
+            animalsCollection.Add(new Animal { Name = "Bird", Birthday = DateTime.Now.ToString() });
+        }
     }
 }

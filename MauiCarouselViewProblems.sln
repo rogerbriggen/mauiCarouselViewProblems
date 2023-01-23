@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Pr
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{61E63766-CDCC-4ADF-B2AE-58A49B5D6920}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Windows_LoopIsTrue_Started.png = docs\Windows_LoopIsTrue_Started.png
+		docs\Windows_LoopIsTrue_2newEntries.png = docs\Windows_LoopIsTrue_2newEntries.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61E63766-CDCC-4ADF-B2AE-58A49B5D6920} = {7BE676F0-A4F2-4A2B-8547-7CE985F72674}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4145F6A8-EE50-412B-B046-06742209B5D5}
