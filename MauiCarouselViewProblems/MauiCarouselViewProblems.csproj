@@ -6,16 +6,16 @@
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
 		<OutputType>Exe</OutputType>
-		<RootNamespace>MauiCollectionViewProblems</RootNamespace>
+		<RootNamespace>MauiCarouselViewProblems</RootNamespace>
 		<UseMaui>true</UseMaui>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>MauiCollectionViewProblems</ApplicationTitle>
+		<ApplicationTitle>MauiCarouselViewProblems</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.mauicollectionviewproblems</ApplicationId>
+		<ApplicationId>com.companyname.MauiCarouselViewProblems</ApplicationId>
 		<ApplicationIdGuid>68182356-a9e5-4de4-a821-61aedfb86ad4</ApplicationIdGuid>
 
 		<!-- Versions -->

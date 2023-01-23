@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:MauiCollectionViewProblems"
-             x:Class="MauiCollectionViewProblems.MainPage"
+             xmlns:local="clr-namespace:MauiCarouselViewProblems"
+             x:Class="MauiCarouselViewProblems.MainPage"
              x:DataType="local:MainPage"
              >
     <VerticalStackLayout>
-        <Label Text="Hallo"></Label>
         <Button
             x:Name="CreateNewListBtn"
             Text="Click me to create new entries in collection"

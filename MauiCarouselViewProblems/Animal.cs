@@ -1,7 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
 
-namespace MauiCollectionViewProblems;
+namespace MauiCarouselViewProblems;
 
 public partial class Animal : ObservableObject
 {

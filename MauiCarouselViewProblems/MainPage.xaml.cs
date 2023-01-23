@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 
 
-namespace MauiCollectionViewProblems
+namespace MauiCarouselViewProblems
 {
     public partial class MainPage : ContentPage
     {

@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace MauiCollectionViewProblems
+namespace MauiCarouselViewProblems
 {
     public class Program
     {

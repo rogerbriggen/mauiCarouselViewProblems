@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace MauiCollectionViewProblems
+namespace MauiCarouselViewProblems
 {
     internal class Program : MauiApplication
     {

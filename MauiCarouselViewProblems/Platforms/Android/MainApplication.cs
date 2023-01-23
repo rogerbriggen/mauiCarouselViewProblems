@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace MauiCollectionViewProblems
+namespace MauiCarouselViewProblems
 {
     [Application]
     public class MainApplication : MauiApplication

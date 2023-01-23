@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace MauiCollectionViewProblems
+namespace MauiCarouselViewProblems
 {
     public static class MauiProgram
     {

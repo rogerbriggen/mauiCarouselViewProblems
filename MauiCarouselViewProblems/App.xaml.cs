@@ -1,4 +1,4 @@
-﻿namespace MauiCollectionViewProblems
+﻿namespace MauiCarouselViewProblems
 {
     public partial class App : Application
     {
