@@ -1,24 +1,24 @@
-﻿namespace MauiCollectionViewProblems
+﻿using System.Collections.ObjectModel;
+
+
+namespace MauiCollectionViewProblems
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
+            animalsCollection = new ObservableCollection<Animal>();
+            BindingContext = this;
+            animalsCollection.Add(new Animal { Name = "Dog", Birthday = DateTime.Now.ToString() });
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        public ObservableCollection<Animal> animalsCollection { get; } 
+
+        private void OnCreateNewListBtnClicked(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            animalsCollection.Clear();
+            animalsCollection.Add(new Animal { Name = "Monkey", Birthday = DateTime.Now.ToString() });
         }
     }
 }
