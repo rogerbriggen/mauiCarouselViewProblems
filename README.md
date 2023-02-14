@@ -1,22 +1,12 @@
 # Maui CarouselView Problems
 
-Shows the problems with MAUI CarouselView on Windows
+Shows the problems with MAUI CarouselView on Android
 
-Just start the application. This will create just 1 item in the ObservableCollection.
-If you press the button, the ObervableCollection is cleared and a new item is placed inside the collection.
-
-# MainPage.xaml Loop=false for the CarouselView
-
-On Android, the new item is shown as expected.
-On Windows, it still shows the old item. Also, if you would go and change the old item, then those changes would show up, so Windows does not do the binding to the new object.
-
-# MainPage.xaml Loop=true for CarouselView
-
-On Android, the new items show up as expected
-On Windows even after startup, a lot of entries are shown (2 errors here: First there should be only 1 entry but there are a lot and second, you should see just one but they are rendered horizontally)
-![After startup](docs/Windows_LoopIsTrue_Started.png)
-
-If you click the add 2 items button you see that here the collection is updated but still rendered completly wrong.
-![After clicking button to add 2 items](docs/Windows_LoopIsTrue_2newEntries.png)
+If you have an entry in your carousel view and you set the HorizontalTextAlignment to any thing else than "Start" you cannot edit this field because every time you selected it the carousel view jumps to element 1
 
 
+To reproduce on Android:
+- Go to element 3 (Bird)
+- try to edit the color value by clicking the field (Start works, the other 2 don't work) -> You are on element 1
+
+Note: On the emulator, you see a strange behavour (by scrolling back and forth if you are on element 2)

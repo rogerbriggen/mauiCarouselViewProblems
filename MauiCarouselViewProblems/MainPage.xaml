@@ -6,16 +6,6 @@
              x:DataType="local:MainPage"
              >
     <VerticalStackLayout>
-        <Button
-            x:Name="CreateNewListBtn"
-            Text="Click me to create new entries in collection"
-            Clicked="OnCreateNewListBtnClicked"
-            HorizontalOptions="Center" />
-        <Button
-            x:Name="CreateNewListBtn2"
-            Text="Click me to create 2 new entries in collection"
-            Clicked="OnCreateNewListBtn2Clicked"
-            HorizontalOptions="Center" />
         <CarouselView
                     Loop="False"
                     ItemsSource="{Binding animalsCollection}">
@@ -24,6 +14,9 @@
                     <VerticalStackLayout>
                         <Label Text="{Binding Name}" />
                         <Label Text="{Binding Birthday}" />
+                        <Entry Text="{Binding Color}" HorizontalTextAlignment="Start" Keyboard="Numeric"/>
+                        <Entry Text="{Binding Color}" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                        <Entry Text="{Binding Color}" HorizontalTextAlignment="End" Keyboard="Numeric"/>
                     </VerticalStackLayout>
                 </DataTemplate>
             </CarouselView.ItemTemplate>

@@ -13,10 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Pr
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{61E63766-CDCC-4ADF-B2AE-58A49B5D6920}"
-	ProjectSection(SolutionItems) = preProject
-		docs\Windows_LoopIsTrue_Started.png = docs\Windows_LoopIsTrue_Started.png
-		docs\Windows_LoopIsTrue_2newEntries.png = docs\Windows_LoopIsTrue_2newEntries.png
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
