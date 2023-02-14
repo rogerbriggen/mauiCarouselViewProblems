@@ -17,7 +17,7 @@
             Clicked="OnCreateNewListBtn2Clicked"
             HorizontalOptions="Center" />
         <CarouselView
-                    Loop="false"
+                    Loop="False"
                     ItemsSource="{Binding animalsCollection}">
             <CarouselView.ItemTemplate>
                 <DataTemplate x:DataType="local:Animal">
